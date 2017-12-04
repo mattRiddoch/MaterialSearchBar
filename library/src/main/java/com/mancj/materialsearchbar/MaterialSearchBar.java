@@ -1064,19 +1064,19 @@ public class MaterialSearchBar extends RelativeLayout implements View.OnClickLis
         //private List suggestions;
         private int maxSuggestions;
 
-        @Override
-        public void writeToParcel(Parcel out, int flags) {
-            super.writeToParcel(out, flags);
-            out.writeInt(isSearchBarVisible);
-            out.writeInt(suggestionsVisible);
-            out.writeInt(speechMode);
-
-            out.writeInt(searchIconRes);
-            out.writeInt(navIconResId);
-            out.writeString(hint);
-            //out.writeList(suggestions);
-            out.writeInt(maxSuggestions);
-        }
+        //@Override
+//        public void writeToParcel(Parcel out, int flags) {
+//            super.writeToParcel(out, flags);
+//            out.writeInt(isSearchBarVisible);
+//            out.writeInt(suggestionsVisible);
+//            out.writeInt(speechMode);
+//
+//            out.writeInt(searchIconRes);
+//            out.writeInt(navIconResId);
+//            out.writeString(hint);
+//            //out.writeList(suggestions);
+//            out.writeInt(maxSuggestions);
+//        }
 
         public SavedState(Parcel source) {
             super(source);
